@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<citys>
+    <city id="01">
+        <name>北京</name>
+        <code>cn01</code>
+    </city>
+    <city id="02">
+        <name>上海</name>
+        <code>cn02</code>
+    </city>
+    <city id="03">
+        <name>天津</name>
+        <code>cn03</code>
+    </city>
+    <city id="04">
+        <name>重庆</name>
+        <code>cn04</code>
+    </city>
+</citys>

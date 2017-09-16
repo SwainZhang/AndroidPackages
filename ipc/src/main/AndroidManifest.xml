@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.emery.test.ipc"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="com.emery.test.ipc.ACCESS_BOOK_MANAGER"/>
+    <permission
+        android:name="com.emery.test.ipc.ACCESS_BOOK_MANAGER"
+        android:label="自定义进入book manager的权限">
+    </permission>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.Holo.NoActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <service
+            android:name=".IBookManagerService"
+            android:enabled="true"
+            android:exported="true"
+            android:process=":remote">
+            <intent-filter>
+                <action android:name="com.emery.test.ipc.IBookManagerService"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
+
+    </application>
+
+</manifest>

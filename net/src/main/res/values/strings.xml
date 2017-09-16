@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Net</string>
+    <string name="city" formatted="true">城市id=%1$s 城市name=%2$s 城市code=%3$s</string>
+</resources>

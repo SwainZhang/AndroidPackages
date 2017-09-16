@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidPackages.iml" filepath="$PROJECT_DIR$/AndroidPackages.iml" />
+      <module fileurl="file://$PROJECT_DIR$/animation/animation.iml" filepath="$PROJECT_DIR$/animation/animation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/butterknife/butterknife.iml" filepath="$PROJECT_DIR$/butterknife/butterknife.iml" />
+      <module fileurl="file://$PROJECT_DIR$/emeryutils/emeryutils.iml" filepath="$PROJECT_DIR$/emeryutils/emeryutils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/glide/glide.iml" filepath="$PROJECT_DIR$/glide/glide.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imageLoader/imageLoader.iml" filepath="$PROJECT_DIR$/imageLoader/imageLoader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inject/inject.iml" filepath="$PROJECT_DIR$/inject/inject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inject-annotation/inject-annotation.iml" filepath="$PROJECT_DIR$/inject-annotation/inject-annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inject-compiler/inject-compiler.iml" filepath="$PROJECT_DIR$/inject-compiler/inject-compiler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ipc/ipc.iml" filepath="$PROJECT_DIR$/ipc/ipc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ipc_binderpool/ipc_binderpool.iml" filepath="$PROJECT_DIR$/ipc_binderpool/ipc_binderpool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/net/net.iml" filepath="$PROJECT_DIR$/net/net.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rxjava/rxjava.iml" filepath="$PROJECT_DIR$/rxjava/rxjava.iml" />
+    </modules>
+  </component>
+</project>

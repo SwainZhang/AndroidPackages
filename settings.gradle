@@ -1,0 +1,1 @@
+include ':imageLoader', ':glide', ':net', ':animation', ':ipc', ':rxjava', ':emeryutils', ':butterknife', ':inject', ':inject-annotation', ':inject-compiler', ':ipc_binderpool'
